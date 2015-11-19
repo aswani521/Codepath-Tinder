@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		AD7A83841BFE8880004D054F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7A83831BFE8880004D054F /* main.m */; };
 		AD7A83871BFE8880004D054F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7A83861BFE8880004D054F /* AppDelegate.m */; };
-		AD7A838A1BFE8880004D054F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7A83891BFE8880004D054F /* ViewController.m */; };
+		AD7A838A1BFE8880004D054F /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7A83891BFE8880004D054F /* CardsViewController.m */; };
 		AD7A838D1BFE8880004D054F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7A838B1BFE8880004D054F /* Main.storyboard */; };
 		AD7A838F1BFE8880004D054F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7A838E1BFE8880004D054F /* Assets.xcassets */; };
 		AD7A83921BFE8880004D054F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7A83901BFE8880004D054F /* LaunchScreen.storyboard */; };
+		AD7A839A1BFE9101004D054F /* CaptionableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7A83991BFE9101004D054F /* CaptionableImageView.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,13 @@
 		AD7A83831BFE8880004D054F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD7A83851BFE8880004D054F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD7A83861BFE8880004D054F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AD7A83881BFE8880004D054F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AD7A83891BFE8880004D054F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD7A83881BFE8880004D054F /* CardsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
+		AD7A83891BFE8880004D054F /* CardsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
 		AD7A838C1BFE8880004D054F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD7A838E1BFE8880004D054F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD7A83911BFE8880004D054F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD7A83931BFE8880004D054F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7A83991BFE9101004D054F /* CaptionableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaptionableImageView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,9 @@
 			children = (
 				AD7A83851BFE8880004D054F /* AppDelegate.h */,
 				AD7A83861BFE8880004D054F /* AppDelegate.m */,
-				AD7A83881BFE8880004D054F /* ViewController.h */,
-				AD7A83891BFE8880004D054F /* ViewController.m */,
+				AD7A83881BFE8880004D054F /* CardsViewController.h */,
+				AD7A83891BFE8880004D054F /* CardsViewController.m */,
+				AD7A83991BFE9101004D054F /* CaptionableImageView.xib */,
 				AD7A838B1BFE8880004D054F /* Main.storyboard */,
 				AD7A838E1BFE8880004D054F /* Assets.xcassets */,
 				AD7A83901BFE8880004D054F /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7A83921BFE8880004D054F /* LaunchScreen.storyboard in Resources */,
+				AD7A839A1BFE9101004D054F /* CaptionableImageView.xib in Resources */,
 				AD7A838F1BFE8880004D054F /* Assets.xcassets in Resources */,
 				AD7A838D1BFE8880004D054F /* Main.storyboard in Resources */,
 			);
@@ -150,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD7A838A1BFE8880004D054F /* ViewController.m in Sources */,
+				AD7A838A1BFE8880004D054F /* CardsViewController.m in Sources */,
 				AD7A83871BFE8880004D054F /* AppDelegate.m in Sources */,
 				AD7A83841BFE8880004D054F /* main.m in Sources */,
 			);
