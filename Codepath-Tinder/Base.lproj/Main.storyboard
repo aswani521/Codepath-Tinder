@@ -20,19 +20,16 @@
                                 <rect key="frame" x="0.0" y="451" width="320" height="108"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="ryan" id="Zc8-Ph-sHg">
-                                <rect key="frame" x="8" y="79" width="304" height="304"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="r3X-Xf-Cft" appends="YES" id="Lpy-da-KDP"/>
-                                </connections>
-                            </imageView>
+                            <view contentMode="scaleToFill" id="YWI-eX-r7F" customClass="DraggableImageView">
+                                <rect key="frame" x="0.0" y="66" width="320" height="364"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="ryanImg" destination="Zc8-Ph-sHg" id="i9g-NA-RtZ"/>
+                        <outlet property="draggeblImageView" destination="YWI-eX-r7F" id="f7V-63-dq4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -42,12 +39,11 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="173.33333333333334" y="366.83333333333331"/>
+            <point key="canvasLocation" x="173" y="366"/>
         </scene>
     </scenes>
     <resources>
         <image name="action_buttons" width="320" height="108"/>
         <image name="nav_bar" width="320" height="65"/>
-        <image name="ryan" width="449" height="514"/>
     </resources>
 </document>

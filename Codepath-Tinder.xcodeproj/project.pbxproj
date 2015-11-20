@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4996E0441BFE9C5900FD3E6A /* DraggebleImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4996E0421BFE95B800FD3E6A /* DraggebleImageView.xib */; settings = {ASSET_TAGS = (); }; };
+		49F8CA4F1BFE92AD0087CE08 /* DraggableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F8CA4E1BFE92AD0087CE08 /* DraggableImageView.m */; settings = {ASSET_TAGS = (); }; };
 		AD7A83841BFE8880004D054F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7A83831BFE8880004D054F /* main.m */; };
 		AD7A83871BFE8880004D054F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7A83861BFE8880004D054F /* AppDelegate.m */; };
 		AD7A838A1BFE8880004D054F /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7A83891BFE8880004D054F /* CardsViewController.m */; };
 		AD7A838D1BFE8880004D054F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7A838B1BFE8880004D054F /* Main.storyboard */; };
 		AD7A838F1BFE8880004D054F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7A838E1BFE8880004D054F /* Assets.xcassets */; };
 		AD7A83921BFE8880004D054F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7A83901BFE8880004D054F /* LaunchScreen.storyboard */; };
-		AD7A839A1BFE9101004D054F /* CaptionableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7A83991BFE9101004D054F /* CaptionableImageView.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4996E0421BFE95B800FD3E6A /* DraggebleImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DraggebleImageView.xib; path = ../DraggebleImageView.xib; sourceTree = "<group>"; };
+		49F8CA4D1BFE92AD0087CE08 /* DraggableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableImageView.h; sourceTree = "<group>"; };
+		49F8CA4E1BFE92AD0087CE08 /* DraggableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableImageView.m; sourceTree = "<group>"; };
 		AD7A837F1BFE8880004D054F /* Codepath-Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codepath-Tinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7A83831BFE8880004D054F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD7A83851BFE8880004D054F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,7 +31,6 @@
 		AD7A838E1BFE8880004D054F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD7A83911BFE8880004D054F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD7A83931BFE8880004D054F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD7A83991BFE9101004D054F /* CaptionableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaptionableImageView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +67,9 @@
 				AD7A83861BFE8880004D054F /* AppDelegate.m */,
 				AD7A83881BFE8880004D054F /* CardsViewController.h */,
 				AD7A83891BFE8880004D054F /* CardsViewController.m */,
-				AD7A83991BFE9101004D054F /* CaptionableImageView.xib */,
+				49F8CA4D1BFE92AD0087CE08 /* DraggableImageView.h */,
+				4996E0421BFE95B800FD3E6A /* DraggebleImageView.xib */,
+				49F8CA4E1BFE92AD0087CE08 /* DraggableImageView.m */,
 				AD7A838B1BFE8880004D054F /* Main.storyboard */,
 				AD7A838E1BFE8880004D054F /* Assets.xcassets */,
 				AD7A83901BFE8880004D054F /* LaunchScreen.storyboard */,
@@ -141,8 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7A83921BFE8880004D054F /* LaunchScreen.storyboard in Resources */,
-				AD7A839A1BFE9101004D054F /* CaptionableImageView.xib in Resources */,
 				AD7A838F1BFE8880004D054F /* Assets.xcassets in Resources */,
+				4996E0441BFE9C5900FD3E6A /* DraggebleImageView.xib in Resources */,
 				AD7A838D1BFE8880004D054F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +161,7 @@
 			files = (
 				AD7A838A1BFE8880004D054F /* CardsViewController.m in Sources */,
 				AD7A83871BFE8880004D054F /* AppDelegate.m in Sources */,
+				49F8CA4F1BFE92AD0087CE08 /* DraggableImageView.m in Sources */,
 				AD7A83841BFE8880004D054F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +311,7 @@
 				AD7A83981BFE8880004D054F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

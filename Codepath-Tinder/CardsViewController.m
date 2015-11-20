@@ -7,11 +7,15 @@
 //
 
 #import "CardsViewController.h"
+#import "DraggableImageView.h"
 
 @interface CardsViewController ()
 @property (nonatomic, assign) CGPoint imgInitialCenter;
 @property (weak, nonatomic) IBOutlet UIImageView *ryanImg;
 @property (nonatomic, assign) CGPoint imgCenterBeforeGestureStarted;
+
+@property (weak, nonatomic) IBOutlet DraggableImageView *draggeblImageView;
+
 
 @end
 
